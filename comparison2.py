@@ -16,6 +16,7 @@ def view_dfs_aStar(x, y):
     # Creating Labels
     l1= textLabel(M, "DFS Path lengh: ", len(bfsFroward)+1)
     l2 = textLabel(M, "A-Star Path length: ", len(aForward) + 1)
+    l3 = textLabel(M, "BFS: Blue, A* : Yellow", "")
     # creating agents
     
     #dfsAgent = agent(M, footprints=True,color=COLOR.cyan)

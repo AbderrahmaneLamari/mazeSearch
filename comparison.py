@@ -16,9 +16,11 @@ def view_dfs_bfs(x, y):
     # Creating Labels
     l1= textLabel(M, "BFS Path lengh: ", len(bfsFroward)+1)
     l2 = textLabel(M, "DFS Path length: ", len(dfsForward) + 1)
+
+    l3 = textLabel(M, "DFS: Blue, BFS: Yellow", "")
     # creating agents
     dfsAgent = agent(M, footprints=True,color=COLOR.cyan)
-    bfsAgent = agent(M, footprints=True,color=COLOR.green)
+    bfsAgent = agent(M, footprints=True,color=COLOR.yellow)
     #aAgent = agent(M, footprints=True,color=COLOR.yellow)
 
     M.tracePath({dfsAgent: dfsForward}, delay=40)
