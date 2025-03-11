@@ -58,9 +58,9 @@ def view_dfs_search(x, y):
 
     l = textLabel(m, 'Path Length', len(forwardPath) + 1)
     l2 = textLabel(m, 'Visited nodes', len(bSearch) + 1)
-    m.tracePath({a: bSearch}, delay=120)
-    m.tracePath({c: thePath}, delay=120)
-    m.tracePath({b: forwardPath}, delay=100)
+    m.tracePath({a: bSearch}, delay=90)
+    m.tracePath({c: thePath}, delay=90)
+    m.tracePath({b: forwardPath}, delay=90)
 
     m.run()
  

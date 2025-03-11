@@ -19,7 +19,7 @@ from comparison2 import view_dfs_aStar
 if __name__ == "__main__":
     
 
-        print("1 - View BFS Search\n",
+        print(" 1 - View BFS Search\n",
               "2 - View DFS Search\n",
               "3 - View A* Search\n",
               "4 - View DFS vs BFS\n",
